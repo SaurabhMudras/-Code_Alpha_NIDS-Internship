@@ -1,0 +1,17 @@
+import time
+
+log_file = "/var/log/suricata/fast.log"
+
+print("[+] Monitoring Suricata alerts...")
+
+with open(log_file, "r") as f:
+    f.seek(0, 2)
+
+    while True:
+        line = f.readline()
+
+        if not line:
+            time.sleep(0.5)
+            continue
+
+        print(f"[ALERT] {line.strip()}")
