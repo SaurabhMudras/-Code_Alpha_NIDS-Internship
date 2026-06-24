@@ -72,11 +72,4 @@ Generated real-time alerts using Suricata and visualized attack statistics using
 * Email notifications
 * Telegram alerts
 * Real-time web dashboard
-* ## Achievements
 
-- Built a Network Intrusion Detection System using Suricata
-- Implemented custom detection rules
-- Monitored network traffic in real time
-- Generated automated alerts
-- Created a visualization dashboardMachine learning based anomaly detection
- 
