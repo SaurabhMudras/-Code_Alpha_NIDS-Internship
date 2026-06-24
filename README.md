@@ -30,12 +30,53 @@ Network Traffic → Suricata → Detection Rules → Alerts → Response Script 
 
 ## Screenshots
 
-Screenshots are available in the screenshots folder.
+### Suricata Running
+
+![Suricata Running](screenshots/suricata%20Running.png)
+
+### Alert Detection
+
+![Alert Detection](screenshots/detected.png)
+
+### Traffic Generation
+
+![Traffic Generation](screenshots/Traffic%20Generation.png)
+
+### Dashboard
+
+![Dashboard](screenshots/alert_statistics.png)
+
+
+## Results
+
+Successfully detected:
+
+- ICMP Ping Traffic
+- HTTP Connections
+- SSH Connections
+
+Generated real-time alerts using Suricata and visualized attack statistics using Python and Matplotlib.
+
+
+## Achievements
+
+- Built a Network Intrusion Detection System using Suricata
+- Implemented custom detection rules
+- Monitored network traffic in real time
+- Generated automated alerts
+- Created a visualization dashboard
+
 
 ## Future Improvements
 
 * Email notifications
 * Telegram alerts
 * Real-time web dashboard
-* Machine learning based anomaly detection
+* ## Achievements
+
+- Built a Network Intrusion Detection System using Suricata
+- Implemented custom detection rules
+- Monitored network traffic in real time
+- Generated automated alerts
+- Created a visualization dashboardMachine learning based anomaly detection
  
